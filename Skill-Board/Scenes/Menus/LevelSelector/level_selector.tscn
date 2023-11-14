@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://c3dulmq0swx84"]
+
+[ext_resource type="Script" path="res://Scenes/Menus/LevelSelector/level_selector.gd" id="1_6ltrr"]
+[ext_resource type="Texture2D" uid="uid://cp3o8ssc8ya2h" path="res://Assets/icon.svg" id="2_6xape"]
+
+[node name="LevelSelector" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_6ltrr")
+
+[node name="Player" type="TextureRect" parent="."]
+top_level = true
+layout_mode = 0
+offset_right = 64.0
+offset_bottom = 64.0
+texture = ExtResource("2_6xape")
+expand_mode = 1
